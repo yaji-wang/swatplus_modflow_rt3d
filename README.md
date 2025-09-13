@@ -2,7 +2,7 @@
 
 ## steps
 1. Load compiler (feel free to replace with your own)
-2. COnfigure the project with CMake
+2. Configure the project with CMake
 3. Build with CMake
 
 ```bash
