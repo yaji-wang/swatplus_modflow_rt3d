@@ -7,3 +7,4 @@ need to check the specific codes for boundary condition setup
 
 
 ## 3. boundary between layers
+(need to test inputs updates for rt3d if multiple layers)
