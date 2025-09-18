@@ -7,5 +7,5 @@
 
 ```bash
 module load intel/2022.2.1
-cmake -B build -D CMAKE_GENERATOR_TOOLSET=fortran=ifort
+cmake -B build -D CMAKE_Fortran_COMPILER=ifort
 cmake --build build
