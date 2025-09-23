@@ -6,4 +6,4 @@ $$
 \mathbf{S} = \frac{dV_{w}}{dh} \cdot \frac{1}{A}
 $$
 
-That is to say, when the aquifer experiences the same change in water volume, a smaller S will reault in a larger change in hydraulic head.
+That is to say, when the aquifer experiences the same change in water volume, a smaller S will result in a larger change in hydraulic head.
