@@ -1,1 +1,3 @@
-
+Just a tip for myself:
+The code structure of hyd_read_connect.f90 is interesting. It's important as it initializes all the objects (ob)
+for simulation. Remember to think of this kind of logic when model crashes!
