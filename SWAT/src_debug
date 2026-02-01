@@ -1,3 +1,9 @@
 2026/02/01
 
 1. The array gully is allocated but not initialized. Revised that in sd_channel_read.f90 file line 93-95 
+
+2. add this:
+        if (abs(wst(iwst)%weat%pet) < 1.e-30) then
+          wst(iwst)%weat%pet = 0.0
+        end if
+  in cli_prep_control.f90 to avoid extremely small random values (underflow/noise) (line 118-120)
